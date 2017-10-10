@@ -1,0 +1,21 @@
+{
+  "name": "pwa-mascode",
+  "version": "1.0.0",
+  "description": "pwa app",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "nurul furqon",
+  "license": "ISC"
+}

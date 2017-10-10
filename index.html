@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sheetup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <a href="http://127.0.0.1:8887"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="container">
+            <div class="box" hidden>
+                <div class="box__header">
+                    <div class="box__header_title"></div>
+                </div>
+                <div class="box__body">
+                    <div class="box__body_text"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="toast" hidden>Sedang dalam mode offline.</div>
+
+        <div class="loader">
+            <svg viewBox="0 0 32 32" width="32" height="32">
+                <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+            </svg>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
